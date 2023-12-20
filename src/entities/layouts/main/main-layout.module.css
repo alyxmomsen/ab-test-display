@@ -1,0 +1,14 @@
+.flexY {
+  display: flex;
+  justify-content: center;
+  gap: 19px;
+}
+
+.header {
+  height: 99px;
+  background-color: whitesmoke;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
