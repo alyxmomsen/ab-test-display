@@ -1,0 +1,40 @@
+{
+  "schema": {
+    "id": "number",
+    "name": "string",
+    "type": "string",
+    "status": "string",
+    "site": "string"
+  },
+  "head": ["name", "type", "status", "site"],
+  "rows": [
+    {
+      "id": "number",
+      "name": "string",
+      "type": "string",
+      "status": "string",
+      "site": "string"
+    },
+    {
+      "id": "1",
+      "name": "title",
+      "type": "body",
+      "status": "description",
+      "site": "https://www.site.com"
+    },
+    {
+      "id": "2",
+      "name": "title",
+      "type": "body",
+      "status": "description",
+      "site": "https://www.site.com"
+    },
+    {
+      "id": "3",
+      "name": "title",
+      "type": "body",
+      "status": "description",
+      "site": "https://www.site.com"
+    }
+  ]
+}
