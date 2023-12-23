@@ -40,19 +40,40 @@ const reducer = (
     case "SET_DATA":
       return {
         ...state,
+<<<<<<< HEAD
         
+=======
+        /* aboutTestsData: action.payload.aboutTestsData ,
+        aboutSitesData: action.payload.aboutSitesData ,
+        data:{
+          sites:action.payload.aboutSitesData ,
+          tests:action.payload.aboutTestsData ,
+        } */
+>>>>>>> 751f3082f71bffc73cb2b7f04a3ddbc0254eb41f
         ...action.payload,
       };
     case "SET_SORT":
       return {
         ...state,
         ...action.payload,
+<<<<<<< HEAD
         
+=======
+        /* sortState: {
+          columnName: action.payload.sortState.columnName,
+          direction: action.payload.sortState.direction,
+        } ,
+        aboutTestsData: action.payload.aboutTestsData, */
+>>>>>>> 751f3082f71bffc73cb2b7f04a3ddbc0254eb41f
       };
     case "SET_FILTER_PATTERN":
       return {
         ...state,
         ...action.payload,
+<<<<<<< HEAD
+=======
+        // filterPattern: action.payload.filterPattern,
+>>>>>>> 751f3082f71bffc73cb2b7f04a3ddbc0254eb41f
       };
     default:
       return state;
@@ -72,7 +93,10 @@ export const AppMainCtx = createContext<
 function App() {
   const [state, dispatch] = useReducer(reducer, {
     sortState: { columnName: "name", direction: "ASC" },
+<<<<<<< HEAD
 
+=======
+>>>>>>> 751f3082f71bffc73cb2b7f04a3ddbc0254eb41f
     filterPattern: "",
     aboutTestsData: [],
     aboutSitesData: [],
@@ -80,7 +104,10 @@ function App() {
       tests: [],
       sites: [],
     },
+<<<<<<< HEAD
 
+=======
+>>>>>>> 751f3082f71bffc73cb2b7f04a3ddbc0254eb41f
   });
 
   return (
